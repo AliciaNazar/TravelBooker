@@ -1,1 +1,127 @@
-<p>reserva works!</p>
+<div class="contenedor">
+  <!-- <div style="height: 10px; width: 2px; background-color: blue;"></div> -->
+  <div class="colectivo">
+      <div class="lado-izquierdo">
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(1) && seleccionarButaca(1)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==1,'butacaReservada':this.butacasReservadas.includes(1)}">1</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(2) && seleccionarButaca(2)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==2,'butacaReservada':this.butacasReservadas.includes(2)}">2</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(4) &&seleccionarButaca(4)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==4,'butacaReservada':this.butacasReservadas.includes(4)}">4</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(5) &&seleccionarButaca(5)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==5,'butacaReservada':this.butacasReservadas.includes(5)}">5</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(7) &&seleccionarButaca(7)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==7,'butacaReservada':this.butacasReservadas.includes(7)}">7</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(8) &&seleccionarButaca(8)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==8,'butacaReservada':this.butacasReservadas.includes(8)}">8</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(10) &&seleccionarButaca(10)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==10,'butacaReservada':this.butacasReservadas.includes(10)}">10</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(11) &&seleccionarButaca(11)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==11,'butacaReservada':this.butacasReservadas.includes(11)}">11</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(13) &&seleccionarButaca(13)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==13,'butacaReservada':this.butacasReservadas.includes(13)}">13</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(14) &&seleccionarButaca(14)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==14,'butacaReservada':this.butacasReservadas.includes(14)}">14</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(16) &&seleccionarButaca(16)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==16,'butacaReservada':this.butacasReservadas.includes(16)}">16</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(17) &&seleccionarButaca(17)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==17,'butacaReservada':this.butacasReservadas.includes(17)}">17</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(19) &&seleccionarButaca(19)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==19,'butacaReservada':this.butacasReservadas.includes(19)}">19</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(20) &&seleccionarButaca(20)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==20,'butacaReservada':this.butacasReservadas.includes(20)}">20</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(22) &&seleccionarButaca(22)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==22,'butacaReservada':this.butacasReservadas.includes(22)}">22</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(23) &&seleccionarButaca(23)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==23,'butacaReservada':this.butacasReservadas.includes(23)}">23</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(25) &&seleccionarButaca(25)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==25,'butacaReservada':this.butacasReservadas.includes(25)}">25</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(26) &&seleccionarButaca(26)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==26,'butacaReservada':this.butacasReservadas.includes(26)}">26</div>
+        </div>
+        <div class="fila">
+          <div class="butaca"(click)="!butacasReservadas.includes(28) &&seleccionarButaca(28)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==28,'butacaReservada':this.butacasReservadas.includes(28)}">28</div>
+          <div class="butaca"(click)="!butacasReservadas.includes(29) &&seleccionarButaca(29)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==29,'butacaReservada':this.butacasReservadas.includes(29)}">29</div>
+        </div>
+      </div>
+      <div class="lado-derecho">
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(3) &&seleccionarButaca(3)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==3,'butacaReservada':this.butacasReservadas.includes(3)}">3</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(6) &&seleccionarButaca(6)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==6,'butacaReservada':this.butacasReservadas.includes(6)}">6</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(9) &&seleccionarButaca(9)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==9,'butacaReservada':this.butacasReservadas.includes(9)}">9</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(12) &&seleccionarButaca(12)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==12,'butacaReservada':this.butacasReservadas.includes(12)}">12</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(15) &&seleccionarButaca(15)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==15,'butacaReservada':this.butacasReservadas.includes(15)}">15</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(18) &&seleccionarButaca(18)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==18,'butacaReservada':this.butacasReservadas.includes(18)}">18</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(21) &&seleccionarButaca(21)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==21,'butacaReservada':this.butacasReservadas.includes(21)}">21</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(24) &&seleccionarButaca(24)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==24,'butacaReservada':this.butacasReservadas.includes(24)}">24</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(27) &&seleccionarButaca(27)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==27,'butacaReservada':this.butacasReservadas.includes(27)}">27</div>
+        </div>
+        <div class="fila">
+          <div class="butacaPremium"(click)="!butacasReservadas.includes(30) &&seleccionarButaca(30)"[ngClass]="{'butacaSeleccionada': this.butacaSeleccionada==30,'butacaReservada':this.butacasReservadas.includes(30)}">30</div>
+        </div>
+      </div>
+    </div>
+</div>
+  
+<!-- <button (click)="agregarLocalidad()">aquiiii</button> -->
+
+<div class="reservar">
+  <div class="detalles-reserva">
+    <div class="detalle-viaje">
+      <h2>Detalles de tu viaje</h2>
+    </div>
+    <div class="origen-destino">
+      <h3>Salida: </h3>
+      <p>{{this.viaje.origen()}}</p>
+      <h3>Destino: </h3>
+      <p>{{this.viaje.destino()}}</p>
+      <h3>Fecha de salida: </h3>
+      <p>{{this.viaje.fechaSalida() | date: 'dd/MM/yyyy' }}</p>
+      <h3>Horario de salida: </h3>
+      <p>{{this.horaSalida | date:'HH:mm \'hs\'' }}</p>
+    </div>
+  </div>
+  <div class="datos-pasajero">
+    <h3>Completá el siguiente formulario</h3>
+    <form method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="  Como figura en el documento" #inputNombre required><br>
+      
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="  Como figura en el documento" #inputApellido required><br>
+      
+        <label for="dni">DNI:</label>
+        <input type="text" id="dni" name="dni" placeholder="  Sin puntos" #inputDni required><br>
+      
+        <label for="mayorDeEdad">¿Es mayor de 12 años*?</label>
+        <input type="checkbox" id="mayorDeEdad" name="mayorDeEdad" #inputMayorDeEdad><br>
+        <label for="" style="font-size: xx-small;">*Menores de 12 años no pueden viajar solos</label><br>
+      
+        <label for="butaca">Butaca seleccionada: {{ butacaSeleccionada }}</label><br>
+      
+        <label for="precio_final">Precio Final: {{this.viaje.precioReserva()}}</label><br>
+        <div class="centrarBoton">
+          <button (click)="reservar(inputNombre.value,inputApellido.value,inputDni.value,inputMayorDeEdad.checked)" class="botonReservar">Reservar</button>
+        </div>
+      </form>
+
+      
+  </div>
+    
+</div>
+  

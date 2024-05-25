@@ -34,7 +34,7 @@ namespace TravelBookerApi.Controllers
             return _response;
         }
 
-        [HttpGet("GetButacasById/{id}")]
+        [HttpGet("GetButacaById/{id}")]
         public ResponseDto GetButacasById(int id)
         {
             try

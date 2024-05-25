@@ -1,4 +1,4 @@
 export interface ILocalidad {
-    id:                     number;
+    id:                     string;
     nombreLocalidad:        string;
 }

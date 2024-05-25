@@ -17,9 +17,20 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage(); //agregado por sugerencia
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//porsia
+app.UseCors(builder =>
+{
+    builder.AllowAnyOrigin()
+           .AllowAnyMethod()
+           .AllowAnyHeader();
+});
+//porsia
+
 
 app.UseHttpsRedirection();
 

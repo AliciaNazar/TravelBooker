@@ -16,4 +16,10 @@ export class AppComponent {
   irALogin() {
     this.router.navigate(['/login']);
   }
+  redirigirAlHome() {
+    this.router.navigate(['/home']);
+  }
+  about() {
+    this.router.navigate(['/about']);
+  }
 }

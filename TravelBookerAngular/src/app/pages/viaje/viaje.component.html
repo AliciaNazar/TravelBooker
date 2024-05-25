@@ -1,0 +1,19 @@
+
+
+<div *ngIf="viajes && viajes.length > 0"> 
+    <div *ngFor="let viaje of viajesFiltrados" class="viaje">
+      <img src="../../../assets/colectivo.png" alt="travelBooker" class="colectivo">
+      <div class="contenido">
+        <h3>Sale de {{ localidadOrigen }} hacia {{ this.localidadDestino }}</h3>
+        <div class="detalleViaje">
+          <p>Fecha de Salida: <strong>{{ fechaSalida }}</strong></p>
+          <p>Horario de Salida: <strong>{{ this.determinarHora(viaje) | date:'HH:mm \'hs\'' }}</strong></p>
+        </div>
+        <button class="botonReservar" (click)="reservar(viaje.id,viaje.idColectivo,viaje.precio)">Reservar</button>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="!viajes || viajes.length === 0">
+    <p>No se encontraron viajes para las localidades seleccionadas.</p>
+  </div>
+  

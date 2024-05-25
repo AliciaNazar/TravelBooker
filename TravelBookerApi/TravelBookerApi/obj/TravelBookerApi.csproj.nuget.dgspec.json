@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj": {}
+    "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj": {
+    "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj",
+        "projectUniqueName": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj",
         "projectName": "TravelBookerApi",
-        "projectPath": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj",
+        "projectPath": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj",
         "packagesPath": "C:\\Users\\alici\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\obj\\",
+        "outputPath": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\alici\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.3, )"

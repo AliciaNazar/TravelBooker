@@ -98,6 +98,24 @@ namespace TravelBookerApi.Controllers
             return _response;
         }
 
+
+        [HttpPut("colectivo/{id}/completo")]
+        public IActionResult ActualizarEstadoColectivo(int id, [FromBody] bool completo)
+        {
+            var colectivo = _context.Colectivos.FirstOrDefault(v => v.Id == id);
+            if (colectivo == null)
+            {
+
+                return NotFound();
+            }
+            colectivo.Completo = completo;
+
+            _context.SaveChanges();
+
+            return Ok();
+        }
+
+
         [HttpDelete("DeleteColectivo/{id}")]
         public ResponseDto DeleteColectivo(int id)
         {

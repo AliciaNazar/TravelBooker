@@ -7,9 +7,7 @@ namespace TravelBookerApi.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
-        public string TipoButaca { get; set; }
-        [ForeignKey("Colectivo")]
-        public int IdColectivo { get; set; }
+        [ForeignKey("CategoriaButaca")]
+        public int IdCategoria { get; set; }
     }
 }

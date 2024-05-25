@@ -30,16 +30,32 @@ namespace TravelBookerApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("IdColectivo")
+                    b.Property<int>("IdCategoria")
                         .HasColumnType("int");
-
-                    b.Property<string>("TipoButaca")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Butacas");
+                });
+
+            modelBuilder.Entity("TravelBookerApi.Models.CategoriaButaca", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Categoria")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Precio")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CategoriasButacas");
                 });
 
             modelBuilder.Entity("TravelBookerApi.Models.Colectivo", b =>
@@ -50,15 +66,15 @@ namespace TravelBookerApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CantButacasPremium")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CantButacasSimples")
-                        .HasColumnType("int");
+                    b.Property<bool>("Completo")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Matricula")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TotalButacas")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -87,28 +103,36 @@ namespace TravelBookerApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<DateTime>("FechaYHora")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("ApellidoUsuario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DniUsuario")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("IdButaca")
                         .HasColumnType("int");
 
-                    b.Property<string>("IdLocalidad")
+                    b.Property<int>("IdViaje")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("MayorDeEdad")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("NombreUsuario")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("IdUsuario")
+                    b.Property<int>("PrecioTotal")
                         .HasColumnType("int");
-
-                    b.Property<double>("Importe")
-                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
                     b.ToTable("Reservas");
                 });
 
-            modelBuilder.Entity("TravelBookerApi.Models.Usuario", b =>
+            modelBuilder.Entity("TravelBookerApi.Models.Viaje", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -116,29 +140,30 @@ namespace TravelBookerApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Apellido")
+                    b.Property<string>("ButacasReservadas")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Dni")
+                    b.Property<DateTime>("FechaYHora")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("IdColectivo")
+                        .HasColumnType("int");
+
+                    b.Property<string>("IdLocalidadDestino")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Email")
+                    b.Property<string>("IdLocalidadOrigen")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Precio")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Viajes");
                 });
 #pragma warning restore 612, 618
         }
