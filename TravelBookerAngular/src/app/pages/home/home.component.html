@@ -13,15 +13,31 @@
         
         <div class="formulario-busqueda">
             <h2>Encontrate con tu próximo viaje ideal aquí</h2>
-            <form action="" method="POST">
-                <label for="origen">Origen:</label>
-                <input type="text" id="origen" name="origen" required>
-                <label for="destino">Destino:</label>
-                <input type="text" id="destino" name="destino" required>
-                <label for="fecha">Fecha:</label>
-                <input type="date" id="fecha" name="fecha" required>
-                <button type="submit">Buscar</button>
-            </form>
+
+            <form class="example-form">
+                <mat-form-field class="example-full-width">
+                  <input type="text" placeholder="¿Desde dónde viajás?" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto" #origenInput required>
+                  <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let ciudad of ciudades" [value]="ciudad">
+                      {{ciudad}}
+                    </mat-option>
+                  </mat-autocomplete>
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                  <input type="text" placeholder="¿Hasta dónde viajás?" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto"#destinoInput required>
+                  <mat-autocomplete #auto="matAutocomplete">
+                    <mat-option *ngFor="let ciudad of ciudades" [value]="ciudad">
+                      {{ciudad}}
+                    </mat-option>
+                  </mat-autocomplete>
+                </mat-form-field>
+                <label for="fecha">Elegí una fecha: </label>
+                <input type="date" id="fecha" name="fecha" [min]="obtenerFecha()" #fechaInput required> 
+                <!-- [min]="obtenerFecha()" -->
+                
+                <button type="button" (click)="buscarViaje(origenInput.value,destinoInput.value,fechaInput.value)">Buscar</button>
+              </form>
+
         </div>
         
         <div class="imagen-derecha">

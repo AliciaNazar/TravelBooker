@@ -39,7 +39,23 @@ namespace TravelBookerApi.Controllers
         {
             try
             {
-                var reserva = _context.Colectivos.FirstOrDefault(r => r.Id == id);
+                var reserva = _context.Reservas.FirstOrDefault(r => r.Id == id);
+                _response.Data = reserva;
+            }
+            catch (Exception ex)
+            {
+                _response.Success = false;
+                _response.Mensaje = ex.Message;
+            }
+            return _response;
+        }
+
+        [HttpGet("GetReservaByDni/{dni}")]
+        public ResponseDto GetReservaByDni(string dni)
+        {
+            try
+            {
+                var reserva = _context.Reservas.FirstOrDefault(r => r.DniUsuario == dni);
                 _response.Data = reserva;
             }
             catch (Exception ex)

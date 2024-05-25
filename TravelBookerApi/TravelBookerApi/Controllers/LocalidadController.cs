@@ -50,7 +50,7 @@ namespace TravelBookerApi.Controllers
             return _response;
         }
 
-        [HttpGet("GetUsuarioByName/{name}")]
+        [HttpGet("GetLocalidadByName/{name}")]
         public ResponseDto GetLocalidadesByName(string name)
         {
             try

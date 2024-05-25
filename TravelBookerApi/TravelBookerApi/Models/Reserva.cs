@@ -7,16 +7,21 @@ namespace TravelBookerApi.Models
     {
         [Key]
         public int Id { get; set; }
-        [ForeignKey("Usuario")]
-        public int IdUsuario { get; set; }
+        [Required]
+        public string NombreUsuario { get; set; }
+        [Required]
+        public string ApellidoUsuario { get; set; }
+        [Required]
+        public string DniUsuario { get; set;}
+        [Required]
+        public bool MayorDeEdad {  get; set; }
+
         [ForeignKey("Butaca")]
         public int IdButaca { get; set; }
-        [ForeignKey("Localidad")]
-        public string IdLocalidad { get; set; }
+        [ForeignKey("Viaje")]
+        public int IdViaje { get; set; }
         [Required]
-        public DateTime FechaYHora { get; set; }
-        [Required]
-        public double Importe { get; set; }
+        public int PrecioTotal { get; set; }
 
     }
 }

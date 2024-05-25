@@ -1,0 +1,22 @@
+.imagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    /* background-color: rgb(255, 255, 255); */
+}
+img{
+
+    height: 70vh;
+    
+}
+.texto{
+    width: 100%;
+    padding: 5%;
+
+    background-color:rgb(234, 233, 233);
+}
+h1{
+    text-emphasis: bold;
+    
+}
