@@ -99,6 +99,23 @@ namespace TravelBookerApi.Controllers
         }
 
 
+
+        //[HttpPut("colectivo/{id}/completo")]
+        //public IActionResult ActualizarEstadoColectivo(int id, [FromBody] bool completo)
+        //{
+        //    var colectivo = _context.Colectivos.FirstOrDefault(v => v.Id == id);
+        //    if (colectivo == null)
+        //    {
+
+        //        return NotFound();
+        //    }
+        //    colectivo.Completo = completo;
+
+        //    _context.SaveChanges();
+
+        //    return Ok();
+        //}
+
         //[HttpPut("colectivo/{id}/completo")]
         //public IActionResult ActualizarEstadoColectivo(int id, [FromBody] bool completo)
         //{

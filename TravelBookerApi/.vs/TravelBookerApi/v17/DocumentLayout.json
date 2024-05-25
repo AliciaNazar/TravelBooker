@@ -1,57 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\",
+  "WorkspaceRootPath": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Migrations\\20240525183728_InitDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TravelBookerApi\\Migrations\\20240525183728_InitDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\controllers\\colectivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\controllers\\colectivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\controllers\\colectivocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\models\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\models\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\models\\colectivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\models\\dto\\responsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\models\\viaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\models\\viaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\models\\viaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\controllers\\viajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\controllers\\viajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\controllers\\viajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\controllers\\butacacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\controllers\\butacacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\controllers\\butacacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\controllers\\categoriabutacacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\controllers\\categoriabutacacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\controllers\\categoriabutacacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\controllers\\localidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\controllers\\localidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\controllers\\localidadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker\\travelbooker\\travelbookerapi\\travelbookerapi\\models\\localidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|c:\\users\\alici\\desktop\\travelbooker-main\\travelbookerapi\\travelbookerapi\\models\\localidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37D0AB43-906E-467A-8D06-FDF1AE5C9385}|TravelBookerApi\\TravelBookerApi.csproj|solutionrelative:travelbookerapi\\models\\localidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,166 +66,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240525183728_InitDB.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Migrations\\20240525183728_InitDB.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Migrations\\20240525183728_InitDB.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Migrations\\20240525183728_InitDB.cs",
-              "RelativeToolTip": "TravelBookerApi\\Migrations\\20240525183728_InitDB.cs",
+              "DocumentIndex": 2,
+              "Title": "ResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Dto\\ResponseDto.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Dto\\ResponseDto.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Dto\\ResponseDto.cs",
+              "RelativeToolTip": "TravelBookerApi\\Models\\Dto\\ResponseDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T18:37:28.453Z",
+              "WhenOpened": "2024-05-25T18:57:33.258Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Dto\\ResponseDto.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Dto\\ResponseDto.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Dto\\ResponseDto.cs",
-              "RelativeToolTip": "TravelBookerApi\\Models\\Dto\\ResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TravelBookerApi\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T18:32:56.272Z",
+              "WhenOpened": "2024-05-25T18:57:33.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ColectivoController.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\ColectivoController.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\ColectivoController.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\ColectivoController.cs",
+              "RelativeToolTip": "TravelBookerApi\\Controllers\\ColectivoController.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAswIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:57:33.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "TravelBookerApi\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Title": "Viaje.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Viaje.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Viaje.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Viaje.cs",
+              "RelativeToolTip": "TravelBookerApi\\Models\\Viaje.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T17:43:41.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ColectivoController.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\ColectivoController.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\ColectivoController.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\ColectivoController.cs",
-              "RelativeToolTip": "TravelBookerApi\\Controllers\\ColectivoController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAswG4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T19:43:56.787Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T18:57:33.269Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Viaje.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Viaje.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Viaje.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Viaje.cs",
-              "RelativeToolTip": "TravelBookerApi\\Models\\Viaje.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ViajeController.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\ViajeController.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\ViajeController.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\ViajeController.cs",
+              "RelativeToolTip": "TravelBookerApi\\Controllers\\ViajeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T02:48:22.295Z",
+              "WhenOpened": "2024-05-25T18:57:33.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Reserva.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Reserva.cs",
+              "RelativeToolTip": "TravelBookerApi\\Models\\Reserva.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:57:33.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Colectivo.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Colectivo.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Colectivo.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Colectivo.cs",
+              "RelativeToolTip": "TravelBookerApi\\Models\\Colectivo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:57:33.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ViajeController.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\ViajeController.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\ViajeController.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\ViajeController.cs",
-              "RelativeToolTip": "TravelBookerApi\\Controllers\\ViajeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK0AAAAQAAAA",
+              "Title": "ButacaController.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\ButacaController.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\ButacaController.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\ButacaController.cs",
+              "RelativeToolTip": "TravelBookerApi\\Controllers\\ButacaController.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwCQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T18:45:39.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Reserva.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Reserva.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Reserva.cs",
-              "RelativeToolTip": "TravelBookerApi\\Models\\Reserva.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAABYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:23:53.163Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Colectivo.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Colectivo.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Colectivo.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Colectivo.cs",
-              "RelativeToolTip": "TravelBookerApi\\Models\\Colectivo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:32:26.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-25T18:57:33.281Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ButacaController.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\ButacaController.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\ButacaController.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\ButacaController.cs",
-              "RelativeToolTip": "TravelBookerApi\\Controllers\\ButacaController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAkwCQAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:51:11.287Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "CategoriaButacaController.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\CategoriaButacaController.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\CategoriaButacaController.cs",
               "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\CategoriaButacaController.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\CategoriaButacaController.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\CategoriaButacaController.cs",
               "RelativeToolTip": "TravelBookerApi\\Controllers\\CategoriaButacaController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T16:50:20.847Z"
+              "WhenOpened": "2024-05-25T18:57:33.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservaController.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\ReservaController.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\ReservaController.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\ReservaController.cs",
+              "RelativeToolTip": "TravelBookerApi\\Controllers\\ReservaController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAADwv08AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:57:33.287Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ReservaController.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\ReservaController.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\ReservaController.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\ReservaController.cs",
-              "RelativeToolTip": "TravelBookerApi\\Controllers\\ReservaController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAADwv08AAAANAAAA",
+              "Title": "LocalidadController.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\LocalidadController.cs",
+              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\LocalidadController.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Controllers\\LocalidadController.cs",
+              "RelativeToolTip": "TravelBookerApi\\Controllers\\LocalidadController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAkwAoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T17:23:49.418Z"
+              "WhenOpened": "2024-05-25T18:57:33.29Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "LocalidadController.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\LocalidadController.cs",
-              "RelativeDocumentMoniker": "TravelBookerApi\\Controllers\\LocalidadController.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Controllers\\LocalidadController.cs",
-              "RelativeToolTip": "TravelBookerApi\\Controllers\\LocalidadController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAkwAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T20:46:57.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Localidad.cs",
-              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Localidad.cs",
+              "DocumentMoniker": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Localidad.cs",
               "RelativeDocumentMoniker": "TravelBookerApi\\Models\\Localidad.cs",
-              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\Models\\Localidad.cs",
+              "ToolTip": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\Models\\Localidad.cs",
               "RelativeToolTip": "TravelBookerApi\\Models\\Localidad.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T20:46:52.224Z"
+              "WhenOpened": "2024-05-25T18:57:33.294Z"
             }
           ]
         }

@@ -72,6 +72,7 @@ export class TravelBookerServiceService {
   }
 
 
+<<<<<<< HEAD
   // agregarLocalidad(localidad: ILocalidad): Observable<any> {
   //   const url = `${this.apiUrl}/Localidad/PostLocalidad`;
   //   return this._http.post<any>(url, localidad);
@@ -98,6 +99,37 @@ export class TravelBookerServiceService {
   //   return this._http.post<IReserva>(url, reserva);
   // }
 
+=======
+  //CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+  //Método para agregar localidad
+  agregarLocalidad(localidad: ILocalidad): Observable<any> {
+    const url = `${this.apiUrl}/Localidad/PostLocalidad`;
+    return this._http.post<any>(url, localidad);
+  }
+  //CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+  agregarReserva(reserva: IReserva):Observable<any>{
+    const url = `${this.apiUrl}/Reserva/PostReserva`;
+    return this._http.post<any>(url, reserva);
+  }
+
+
+  getViajesByLocalidades(origen:string,destino:string): Observable<any>{
+    return this._http.get<IViaje[]>(`${this.apiUrl}/Viaje/GetViajesByLocalidades/${origen}/${destino}`);
+  }
+
+
+  getViajesByLocalidadesYFecha(origen:string,destino:string,fecha:string): Observable<any>{
+    return this._http.get<IViaje[]>(`${this.apiUrl}/Viaje/GetViajesByLocalidades/${origen}/${destino}/${fecha}`);
+  }
+
+  // postReserva(id:number,idUsuario:number, idButaca:number,idLocalidad:string,fechaYHora:Date,importe:number): Observable<IReserva> {
+  //   const url = `${this.apiUrl}/Reserva/PostReserva`;
+  //   const reserva: IReserva = {id,idUsuario, idButaca, idLocalidad, fechaYHora, importe };
+  //   return this._http.post<IReserva>(url, reserva);
+  // }
+
+>>>>>>> e869578d8ea772c899111e2359066bfcd0b4d222
   // agregarReserva(id:number,nombreUsuario:string,apellidoUsuario:string,dniUsuario:string,fechaNacimiento:Date,idButaca:number,idViaje:string,precioFinal:number){
   //   const url = `${this.apiUrl}/Reserva/PostReserva`;
   //   const reserva: IReserva = {id,nombreUsuario,apellidoUsuario,dniUsuario,fechaNacimiento,idButaca, idViaje,precioFinal };

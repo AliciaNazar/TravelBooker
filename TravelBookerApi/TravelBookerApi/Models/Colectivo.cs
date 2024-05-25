@@ -10,5 +10,5 @@ namespace TravelBookerApi.Models
         public string Matricula { get; set; }
         [Required]
         public int TotalButacas {  get; set; }
-    }
+
 }

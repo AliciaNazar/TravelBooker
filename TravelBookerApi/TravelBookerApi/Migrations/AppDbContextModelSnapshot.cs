@@ -66,6 +66,12 @@ namespace TravelBookerApi.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+<<<<<<< HEAD
+=======
+                    b.Property<bool>("Completo")
+                        .HasColumnType("bit");
+
+>>>>>>> e869578d8ea772c899111e2359066bfcd0b4d222
                     b.Property<string>("Matricula")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

@@ -54,7 +54,88 @@ export class HomeComponent implements OnInit{
   
   ngOnInit(): void {
     
+<<<<<<< HEAD
+=======
 
+
+    this._travelBookerService.getLocalidades().subscribe(
+      (res: any) => {
+        if (res?.data instanceof Array) {
+          this.localidadess = res.data;
+          this.localidadess.forEach(element => {
+            this.ciudades?.push(element.nombreLocalidad)
+          });
+        } else {
+          console.error('Error: No se pudo cargar la lista de localidades.');
+        }
+      },
+      (error: any) => {
+        console.error(error);
+      }
+    );
+  }
+
+
+  obtenerFecha():string{
+    const today = new Date();
+    const year = today.getFullYear();
+    let month: string | number = today.getMonth() + 1;
+    let day: string | number = today.getDate();
+    if (month < 10) {
+      month = '0' + month;
+    }
+    if (day < 10) {
+      day = '0' + day;
+    }
+    return `${year}-${month}-${day}`;
+  }
+
+  buscarViaje(origen: string, destino: string, fecha: string) {
+    this.buscarCiudad(origen);
+    this.buscarCiudad(destino);
+    this._router.navigate(['/viaje'], { 
+      queryParams: { 
+        origen: origen,
+        destino: destino,
+        fecha: fecha
+      } 
+    });
+  }
+
+  buscarCiudad(ciudad: string) {
+    this._travelBookerService.getLocalidadByName(ciudad).subscribe(
+      (res: ILocalidad) => {
+        this.localidades = res;
+        // console.log(this.localidades)
+        // this._router.navigate(['/viaje'], { queryParams: { resultados: JSON.stringify(this.localidades) } }); 
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
+  }
+
+  // determinarFechaInicial(){
+  //   const fecha = document.querySelector('#fecha') as HTMLInputElement;
+  //   fecha.setAttribute('max', new Intl.DateTimeFormat(undefined, {year: 'numeric', month: 'numeric', day: 'numeric'}).format(this.today));
+  // }
+>>>>>>> e869578d8ea772c899111e2359066bfcd0b4d222
+
+  guardarCambios(): void {
+    if (!this.localidadSeleccionada || !this.nuevoNombre) {
+      console.error('Error: Debes seleccionar una localidad y proporcionar un nuevo nombre.');
+      return;
+    }
+    this.localidadSeleccionada.nombreLocalidad = this.nuevoNombre;
+    this._travelBookerService.actualizarLocalidad(this.localidadSeleccionada).subscribe(
+      (res: any) => {
+        console.log('Localidad actualizada correctamente:', res);
+      },
+      (error: any) => {
+        console.error('Error al actualizar la localidad:', error);
+      }
+    );
+  }
 
     this._travelBookerService.getLocalidades().subscribe(
       (res: any) => {

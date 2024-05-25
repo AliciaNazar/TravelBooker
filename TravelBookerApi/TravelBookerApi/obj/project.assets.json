@@ -4750,11 +4750,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj",
+      "projectUniqueName": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj",
       "projectName": "TravelBookerApi",
-      "projectPath": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj",
+      "projectPath": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\TravelBookerApi.csproj",
       "packagesPath": "C:\\Users\\alici\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alici\\Desktop\\TravelBooker\\TravelBooker\\TravelBookerApi\\TravelBookerApi\\obj\\",
+      "outputPath": "C:\\Users\\alici\\Desktop\\TravelBooker-main\\TravelBookerApi\\TravelBookerApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alici\\AppData\\Roaming\\NuGet\\NuGet.Config",
